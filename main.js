@@ -1,5 +1,7 @@
 const selectProduct = document.querySelectorAll('.select-product');
 const picColor = document.querySelectorAll('.sizeSmall');
+let mainImage = document.querySelector('.main-image');
+
 
 function activeLink(){
     selectProduct.forEach((item=>
@@ -23,12 +25,6 @@ function pickColor(){
 picColor.forEach((item)=>
 item.addEventListener('click',pickColor)
 )
-
-
-let mainImage = document.querySelector('.main-image');
-
-
-
 
 
 
