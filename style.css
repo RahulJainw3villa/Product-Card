@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+}
+
+body{
+    background: lightgray;    
+}
+
+.container{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+height: auto;
+width: 90%;
+background: white;
+padding-top: 48px;
+padding-left: 32px;
+padding-right: 32px;
+padding-bottom: 48px;
+}
+
+.container .nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.textGray{
+    color: gray;
+}
+
+.fa-long-arrow-left{
+    margin-right: 16px;
+    font-size: 16px;
+}
+
+
+.product-container{
+    display: grid;
+    grid-template-columns: 30% 35% 30%;
+}
+
+.marginBottom{
+    margin-bottom: 16px;
+}
+
+.marginTopBottom{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.product-container .product-all-image{
+    display: flex;
+
+}
+
+
+.product-container .product-all-image .p-image{
+    height: 60px;
+    width: 60px;
+    margin: 1px;
+}
+
+.product-container .product-all-image .p-count{
+    background: black;
+    width: 60px;
+    position: relative;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.product-container .product-all-image .p-count p{
+position: relative;
+top: 35%;
+}
+
+
+.product-description{
+    margin-left: 24px;
+}
+
+.product-description .sizes{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.product-description .sizes .circle{
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.select-color{
+   opacity: .4;
+}
+
+.marginTop{
+    margin-top: 16px;
+}
+
+.active{
+    background: black;
+    color: white;
+}
+
+.product-description .reviews{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-description .price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sizeSmall{
+    width: 40px !important;
+    height: 40px !important;
+
+}
+
+.color-1{
+    background: green;
+}
+
+.color-2
+{
+    background: blue;
+  
+}
+
+.color-3
+{
+    background: red;
+  
+}
+.color-4
+{
+    background: goldenrod;
+  
+}
+.color-5
+{
+    background: fuchsia;
+  
+}
+
+
+
+@media (max-width: 768px){
+    .product-container{
+        grid-template-columns: 100%;
+    }
+
+    .product-image{
+        margin: 16px auto;
+    }
+
+}
