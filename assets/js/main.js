@@ -1,6 +1,7 @@
 const selectProduct = document.querySelectorAll('.select-product');
 const picColor = document.querySelectorAll('.sizeSmall');
 let mainImage = document.querySelector('.main-image');
+console.log(mainImage);
 
 
 function activeLink(){
@@ -29,7 +30,7 @@ item.addEventListener('click',pickColor)
 
 
 function imgClick(imageUrl){
-    mainImage.src  = imageUrl;   
+    mainImage.src =imageUrl;   
 }
 
 

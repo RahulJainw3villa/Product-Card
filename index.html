@@ -1,87 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- Google fonts  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <div class="container">
-       <div class="nav">
-    <h2>kalli</h2>   
-    <p><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Back</p>   
-    <p><i class="fa fa-shopping-cart" aria-hidden="true"></i></p>        
-       </div>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="nav">
+          <h2>kalli</h2>
+          <p><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Back</p>
+          <p><i class="fa fa-shopping-cart" aria-hidden="true"></i></p>
+        </div>
 
-       <div class="product-container">
-           <div class="product-name">
-               <h4 class="FENDI marginBottom">FENDI -</h4>
-               <h1>White Technical<br>knit Febric high-tops</h1>
-               <h4 class="marginTopBottom textGray">Running sneakers with thin and with the <br>elastic leses.</h4>
-
-               <div class="product-all-image">
-                   <div class="p-image">
-                       <img src="./pexels-fernando-arcos-190819.jpg" alt="watch image" height="100%" width="100%" class="image-selector" onclick="imgClick(`./pexels-fernando-arcos-190819.jpg`)">
-                   </div>
-                   <div class="p-image"><img src="./pexels-mat-brown-1034064.jpg" alt="watch image" height="100%" width="100%" class="image-selector" onclick="imgClick(`./pexels-mat-brown-1034064.jpg`)">
-                   </div>
-                   <div class="p-image"> <img src="./pexels-pixabay-280250.jpg" alt="watch image" height="100%" width="100%" class="image-selector" onclick="imgClick(`./pexels-pixabay-280250.jpg`)">
-                   </div>
-                   <div class="p-count"><p>+3</p></div>
-               </div>
-
-           </div>
-           <div class="product-image">
-               <img src="./pexels-pixabay-280250.jpg" alt="product image" height="100%" width="100%" class="main-image">
-           </div>
-           <div class="product-description">
-               <h3 class="marginBottom">Size</h3>
-               <div class="sizes">
-                   <div class="circle select-product active"><p>34</p>
-                       </div>
-                   <div class="circle select-product">35</div>
-                   <div class="circle select-product">36</div>
-                   <div class="circle select-product">37</div>
-                   <div class="circle select-product">38</div>
-               </div>
-               <div class="reviews marginTopBottom">
-                   <p class="textGray">REVIEWS</p>
-                   <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i></span>
-               </div>
-
-               <div class="price">
-                <p class="textGray">Price</p>
-                <p>$750</p>
-                   
-               </div>
-
-               <h5 class="marginTop"><b>COLOUR</b></h5>
-
-               <div class="sizes marginTop">
-                <div class="circle color-1  sizeSmall  c1"><p></p>
-                    </div>
-                <div class="circle sizeSmall  color-2"></div>
-                <div class="circle sizeSmall color-3"></div>
-                <div class="circle sizeSmall color-4"></div>
-                <div class="circle  sizeSmall color-5"></div>
+        <div class="product-container">
+          <div class="product-name">
+            <h4 class="FENDI marginBottom">FENDI -</h4>
+            <h1>White Technical<br />knit Febric high-tops</h1>
+            <h4 class="marginTopBottom textGray">
+              Running sneakers with thin and with the <br />elastic leses.
+            </h4>
+            <div class="product-all-image">
+              <div class="p-image">
+                <img
+                  src="assets/img/pexels-fernando-arcos-190819.jpg"
+                  alt="watch image"
+                  height="100%"
+                  width="100%"
+                  class="image-selector"
+                  onclick="imgClick(`./pexels-fernando-arcos-190819.jpg`)"
+                />
+              </div>
+              <div class="p-image">
+                <img
+                  src="assets/img/pexels-mat-brown-1034064.jpg"
+                  alt="watch image"
+                  height="100%"
+                  width="100%"
+                  class="image-selector"
+                  onclick="imgClick(`./pexels-mat-brown-1034064.jpg`)"
+                />
+              </div>
+              <div class="p-image">
+                <img
+                  src="assets/img/pexels-pixabay-280250.jpg"
+                  alt="watch image"
+                  height="100%"
+                  width="100%"
+                  class="image-selector"
+                  onclick="imgClick(`./pexels-pixabay-280250.jpg`)"
+                />
+              </div>
+              <div class="p-count"><p>+3</p></div>
             </div>
-           
+          </div>
+          <div class="product-image">
+            <img
+              src="assets/img/pexels-pixabay-280250.jpg"
+              alt="product image"
+              height="100%"
+              width="100%"
+              class="main-image"
+            />
+          </div>
+          <div class="product-description">
+            <h3 class="marginBottom">Size</h3>
+            <div class="sizes">
+              <div class="circle select-product active"><p>34</p></div>
+              <div class="circle select-product">35</div>
+              <div class="circle select-product">36</div>
+              <div class="circle select-product">37</div>
+              <div class="circle select-product">38</div>
+            </div>
+            <div class="reviews marginTopBottom">
+              <p class="textGray">REVIEWS</p>
+              <span
+                ><i class="fa fa-star" aria-hidden="true"></i
+                ><i class="fa fa-star" aria-hidden="true"></i
+                ><i class="fa fa-star" aria-hidden="true"></i
+                ><i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </span>
+            </div>
 
+            <div class="price">
+              <p class="textGray">Price</p>
+              <p>$750</p>
+            </div>
 
+            <h5 class="marginTop"><b>COLOUR</b></h5>
 
-           </div>
-       </div>
-    </div>
+            <div class="sizes marginTop">
+              <div class="circle color-1 sizeSmall c1"><p></p></div>
+              <div class="circle sizeSmall color-2"></div>
+              <div class="circle sizeSmall color-3"></div>
+              <div class="circle sizeSmall color-4"></div>
+              <div class="circle sizeSmall color-5"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <script src="main.js"></script>
-</body>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
